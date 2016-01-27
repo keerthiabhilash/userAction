@@ -1,0 +1,3 @@
+ background-size = will size the background image to the neede persentage of the page if we say 100% it will cover all the page and if we say 10% it will cover only 10 of the page and the remaing part is repeated all over the place.
+ pading increazes : it will increaze;
+ opacity: wille turn the image to white

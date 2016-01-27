@@ -1,0 +1,110 @@
+
+.userFormBackground {
+    margin-top: 70px;
+    border: 2px solid rgba(248, 248, 248, 0.87);
+
+}
+
+.userAddress {
+    margin-top: 20px;
+}
+
+.navbar-customer, .navbar-fixed-top, .navbar {
+    background-color: rgba(54, 54, 54, 0.5);
+    text-decoration-color: black;
+}
+
+a.navbar-brand:hover, a.navBarFont:hover, a.navBarFont:active, .dropdown-menu.glyphicon:hover, .dropdown-menu.glyphicon:hover {
+    color: coral;
+}
+
+.container-fluid-nav {
+    border-bottom: 3px solid rgba(255, 255, 255, 0.73);
+}
+
+.labelFount, .navbar-customer, .navBarFont, .navbar-brand {
+    font-family: 'Droid Sans', sans-serif;
+    color: rgba(255, 255, 255, 0.96);
+
+}
+
+.form-horizontal {
+    border: 100px solid #DA3637;
+    border: 10px;
+    border-color: aqua;
+}
+
+body {
+    /*background-color: rgba(255, 187, 158, 0.41);*/
+}
+
+.userFormBackground {
+
+    padding: 20px;
+    background-color: rgba(78, 78, 78, 0.33);
+    border-radius: 15px;
+
+}
+
+.basicMagin {
+    border: 50px;
+}
+
+.productName, .productDiv {
+    border: 2px solid #DA3637;
+    font-size: 4vw;
+
+    background-color: rgb(255, 255, 255);
+    padding: 5%;
+}
+
+#productsId {
+    border: 20px solid rgba(4, 10, 4, 0.89);
+    /*background-image: linear-gradient(to Right, rgba(248, 248, 248, 0.88), rgba(136, 136, 136, 0.8));*/
+    background-image: linear-gradient(to Right, rgba(12, 12, 24, 0.88), rgba(136, 136, 136, 0.8));
+
+}
+
+h2.text-center.basicFont {
+    font-family: 'Droid Sans', sans-serif;
+    color: #e49526;
+
+}
+
+#newUserForm, .userFormBackground {
+    background-image: url("../images/orange-background.jpg");
+
+}
+
+.beautyFont {
+    font-family: 'Lobster', cursive;
+}
+
+h3.beautyFont {
+    font-size: 12vw;
+    font-family: 'Arizonia', cursive;
+    font-stretch: expanded;
+}
+
+.carousel-caption-temple {
+    margin-bottom: 15%;
+
+}
+
+button.black-button{
+    background-color: rgba(198, 97, 0, 0.79);
+    border: 3px solid rgb(248, 249, 253);
+    font-family: 'Sansita One', cursive;
+    font-size: 2vw;
+    color: #d9dfe4;
+    padding: 5px 20px 5px 20px ;
+    border-radius: 35px;
+
+}
+
+/*default founts */
+/*font-family: 'Lobster', cursive;*/
+/*font-family: 'Pacifico', cursive;*/
+/*font-family: 'Courgette', cursive;*/
+/*font-family: 'Sansita One', cursive;*/
+/*font-family: 'Arizonia', cursive;*/

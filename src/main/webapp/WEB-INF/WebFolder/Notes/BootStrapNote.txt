@@ -1,0 +1,15 @@
+class: page --> will spered the content in the div to the whole page.
+
+
+Bootstra botton
+
+        .btn-default                .btn-lg /// large small sizes
+                                    .btn-md
+                                    .btn-sm
+                                    .btn-xs
+        .btn-primary
+        .btn-success
+        .btn-info
+        .btn-warning
+        .btn-danger
+        .btn-link

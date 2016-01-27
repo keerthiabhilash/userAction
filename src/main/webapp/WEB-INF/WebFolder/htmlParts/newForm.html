@@ -1,0 +1,118 @@
+<form id="newUserForm" name="RegistrationForm" class="page form-horizontal basicMagin" novalidate>
+    <div class="container col-xs-offset-3 col-md-offset-2 col-sm-offset-1 col-xs-6 col-md-8 col-sm-10 userFormBackground ">
+        <h2 class="text-center labelFount" style="margin-top:20px;">New Registration</h2>
+        </br>
+        <div class="form-group">
+            <!--<label for="" class="col-sm-3 control-label labelFount">First Name :</label>-->
+            <fieldset>
+                <div typeof="text" class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+                    <input type="firstName" ng-model="registrationForm.firstName" class="form-control labelFount" id=""
+                           placeholder="First Name">
+                </div>
+            </fieldset>
+
+        </div>
+        <p>{{registrationForm}}</p>
+        <div class="form-group">
+            <!--<label for="" class="col-sm-3 control-label labelFount">Last Name :</label>-->
+            <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+                <input type="lastName" ng-model="registrationForm.lastName" class="form-control labelFount" id=""
+                       placeholder="Last Name">
+            </div>
+        </div>
+        <div class="form-group">
+            <!--<label for="" class="col-sm-3 control-label labelFount">Middle Name :</label>-->
+            <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+                <input type="middleName" ng-model="registrationForm.middleName" class="form-control labelFount" id=""
+                       placeholder="Middle Name">
+            </div>
+        </div>
+        <div class="form-group">
+            <!--<label for="" class="col-sm-3 control-label labelFount">E-mail :</label>-->
+            <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+                <input type="email" ng-model="registrationForm.email" class="form-control labelFount" id=""
+                       placeholder="E-mail">
+            </div>
+        </div>
+        <div class="form-group">
+            <!--<label for="" class="col-sm-3 control-label labelFount">Phone :</label>-->
+            <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+                <input type="text" ng-model="registrationForm.phone" class="form-control labelFount" id=""
+                       placeholder="Phone">
+            </div>
+        </div>
+        </br>
+        <!-- Remember me -->
+
+        <!--
+        <div class="form-group">
+            <div class="col-sm-offset-3 col-sm-7">
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox"> Remember me
+                    </label>
+                </div>
+            </div>
+        </div>
+-->
+
+        <!--Address div-->
+        <center>
+            <h3 class="text-center labelFount ">Address Details</h3>
+            <div class="userAddress">
+                <div class="form-group">
+                    <!--<label for="" class="col-sm-2 control-label labelFount">Address1:</label>-->
+                    <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+                        <input type="text" ng-model="registrationForm.stName" class="form-control labelFount" id=""
+                               placeholder="Street Name">
+                    </div>
+
+                </div>
+
+                <div class="form-group">
+                    <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+                        <input type="text" ng-model="registrationForm.apt" class="form-control labelFount" id=""
+                               placeholder="Apt & Suit No">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+                        <input type="text" ng-model="registrationForm.apt" class="form-control labelFount" id=""
+                               placeholder="City">
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+
+                    <label class="col-sm-2 col-sm-offset-1 control-label labelFount">Country :</label>
+                    <div class="col-sm-3">
+                        <select name="Country Options" ng-model="registrationForm.cntry" ng-model="selectedContry"
+                                ng-options="cntry.contryName for cntry in cntryAndStats" id="myCntry"
+                                class="labelFount form-control">
+                        </select>
+                    </div>
+
+
+                    <label class="col-sm-1 col-sm-offset-1 control-label labelFount">State:</label>
+                    <div class="col-sm-2">
+                        <select name="mySelect" ng-model="registrationForm.state" id="mySelect"
+                                ng-model="selectStateModel" class="labelFount form-control">
+                            <option ng-repeat="stat in selectState">{{stat}}</option>
+                        </select>
+                        <!--           ng-options="state in stats.statsInListForm for stats in selectedContry"         <input type="email" class="form-control" id="inputEmail3" placeholder="state">-->
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+                    <div class="col-sm-offset-3 col-sm-6 labelFount">
+                        <button type="submit" class="btn btn-primary black-button" ng-disabled="RegistrationForm.$valid">Submit
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+</form>
